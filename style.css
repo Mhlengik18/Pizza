@@ -1,0 +1,41 @@
+body {
+    background-color: #DBD56E;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.pizza {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid orange;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+.medium {
+    background-color: #FC7753;
+}
+
+.large {
+    background-color: #66D7D1;
+}
+
+.small {
+    background-color: #403D58;
+}
+
+.contacts {
+    background-color: #E6ADEC;
+}
+
+@media (min-width: 750px) {
+    .pizzas {
+        display: flex;
+    }
+}
